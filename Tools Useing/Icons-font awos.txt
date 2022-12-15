@@ -1,0 +1,13 @@
+<i class="fa-solid fa-film"></i>for film
+<i class="fa-solid fa-tv"></i>for seires
+<i class="fa-solid fa-magnifying-glass"></i> for search bar
+<i class="fa-regular fa-house"></i>for home button
+<i class="fa-brands fa-facebook"></i> for facebook
+<i class="fa-brands fa-twitter"></i>for twitter
+<i class="fa-duotone fa-circle-up"></i> for button up
+<i class="fa-solid fa-dragon"></i> for anything letter
+<i class="fa-solid fa-user"></i>for login user
+<i class="fa-solid fa-up-right-from-square"></i> for back button
+<i class="fa-solid fa-ticket"></i>تذكرة
+<i class="fa-solid fa-play"></i>play
+<i class="fa-solid fa-stopwatch"></i> for time

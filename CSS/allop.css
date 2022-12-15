@@ -1,0 +1,160 @@
+/* Start virbal */
+:root {
+    --main-color:red;
+    --sec-color:white;
+    --transparent-color:rgba(31, 34, 59, 0.534);
+    --section-padding:100px;
+}
+/* End virbal */
+/* Start Globel rules  */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=El+Messiri:wght@600;700&family=Rakkas&display=swap');
+/* End Globel rules  */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'El Messiri', sans-serif;
+    /* font-family: 'Rakkas', cursive; */
+   background-color: rgb(0, 0, 0);
+}
+/* Strat header */
+header{
+    position: relative;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: var(--transparent-color);
+}
+header .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header .logo img {
+    height: 200px;
+}
+.head .logo p{
+    color: rgb(167, 167, 167);
+    padding-left: 15%;
+    font-size: 35px;
+    margin: 15px;
+    padding-bottom: 10px;
+}
+/* End header */
+/* Start navgition */
+ul{
+    list-style: none;
+}
+.nav-bar nav{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.nav-bar nav ul{
+    display: flex;
+    /* background-color:orangered;
+    border-radius: 1%; */
+}
+.nav-bar nav ul a{
+    display: block;
+    color:var(--sec-color);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.3s;
+    padding: 40px 50px;
+    border-bottom: 1px solid var(--transparent-color);
+}
+.nav-bar nav ul a .activet,
+.nav-bar nav ul a:hover{
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+/* Start catlog */
+.gallery {
+    margin: 70px ;
+    border: 1px solid #ccc;
+    float: left;
+    width: 450px;
+    position: relative;
+    left: 2%;
+    z-index: 99999999999;
+  }
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  .gallery i{
+    color: var(--sec-color);
+    position: relative;
+    left: 220px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    transition: 0.1s;
+  }
+  .desc {
+    padding: 15px;
+    text-align: center;
+    color: var(--main-color);
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .gallery button{
+        background-color: var(--main-color);
+        border: none;
+        border-radius: 2px;
+        position: relative;
+        font-weight: bold;
+        left: 190px;
+        bottom: 5px;
+        margin: 1px;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        transition: 0.2s;
+  }
+  .gallery button:hover{
+    background-color: var(--sec-color);
+  }
+  .gallery button a{
+    text-decoration: none;
+    color: var(--transparent-color);
+  }
+  /* End catlog */
+  /* Footer Start  */
+.footer{
+    padding-top: calc(var(--section-padding) / 2);
+    padding-bottom: calc(var(--section-padding) / 2);
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+  .footer .container{
+    position: relative;
+  }
+  .footer img{
+    margin-bottom: -30px;
+    width: 29%;
+  }
+  .footer p:not(.copyright){
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    font-size: 22px;
+    width: fit-content;
+    margin: 20px auto;
+  }
+  .footer .social-icons i{
+    padding: 10px 15px;
+  }
+  .footer .copyright{
+    margin-top: 60px;
+  }
+  .footer .copyright span{
+    font-weight: bold;
+    color: var(--main-color);
+  }
+  /* Footer End  */

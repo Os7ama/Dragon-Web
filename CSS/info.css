@@ -1,0 +1,130 @@
+/* Start virbal */
+:root {
+    --main-color:red;
+    --sec-color:white;
+    --transparent-color:rgba(31, 34, 59, 0.534);
+    --section-padding:100px;
+}
+/* End virbal */
+/* Start Globel rules  */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=El+Messiri:wght@600;700&family=Rakkas&display=swap');
+/* End Globel rules  */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'El Messiri', sans-serif;
+    /* font-family: 'Rakkas', cursive; */
+   background-color: rgb(0, 0, 0);
+}
+/* Strat header */
+header{
+    position: relative;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: var(--transparent-color);
+}
+header .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header .logo img {
+    height: 200px;
+}
+.head .logo p{
+    color: rgb(167, 167, 167);
+    padding-left: 15%;
+    font-size: 35px;
+    margin: 15px;
+    padding-bottom: 10px;
+}
+/* End header */
+/* Start Info */
+.info{
+    display: flex;
+    position: relative;
+    padding: 20px 40px;
+    margin: 25px 35px;
+}
+.info .containar{
+    position: fixed;
+    background-color: var(--transparent-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+.info .containar img{
+    position: relative;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+}
+.info .discrip{
+    color: white;
+    direction: rtl;
+    position: relative;
+    left: 550px;
+    background: var(--main-color);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.info .discrip h3{
+    padding: 25px;
+    font-size: 40px;
+    direction: ltr;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.info .discrip p{
+    padding: 50px;
+    width: fit-content;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 12px;
+    background-color: #000000d4;
+    border-radius: 10px;
+}
+.info .discrip span{
+    padding: 10px;
+    margin: 9px;
+    font-size: 20px;
+    color: yellow;
+}
+.info .containar i{
+    padding: 5px;
+    margin: 26px;
+    font-size: 30px;
+    position: relative;
+    left: 39px;
+    bottom: -3px;
+}
+.info button{
+    position: fixed;
+    left: 25px;
+    top: 200px;
+    z-index: 2;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    color: var(--sec-color);
+    background-color: var(--main-color);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.info button a{
+    text-decoration: none;
+    color: var(--sec-color);
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+}
+.info button i{
+    position: relative;
+    right: 10px;
+}
+/* End Info */
